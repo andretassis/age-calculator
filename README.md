@@ -1,5 +1,7 @@
 # Calculadora de Idade
 
+Ideia de projeto retirada de: [www.](https://www.frontendmentor.io/challenges)
+
 ## Objetivo:
 
 O objetivo deste projeto é criar uma aplicação em que o usuário insere uma data e o sistema calula o numero de anos, meses e dias em relação à data do preenchimento.
