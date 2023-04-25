@@ -1,6 +1,6 @@
 # Calculadora de Idade
 
-Ideia de projeto retirada de: [www.](https://www.frontendmentor.io/challenges)
+Ideia de projeto retirada de: https://www.frontendmentor.io/challenges
 
 ## Objetivo:
 
