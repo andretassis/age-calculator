@@ -24,6 +24,31 @@ body {
     align-items: center;
 }
 
+.date {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.date--form {
+    width: 65px;
+    height: 40px;
+    margin: 5px;
+}
+
+#submit {
+    background-image: url(../images/angle-down-solid.svg);
+    background-color: transparent;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+
+}
+
 .send {
     width: 50px;
     height: 50px;

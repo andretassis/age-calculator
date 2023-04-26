@@ -15,8 +15,15 @@
 <body>
     <main>
         <section class="board">
-            <input type="date">
-            <img class="send" src="./images/angle-down-solid.svg" alt="Clique para enviar">
+            <form>
+                <span class="date">
+                    <input class="date--form" id="day">
+                    <input class="date--form" id="month">
+                    <input class="date--form" id="year">
+                </span>
+                <input type="submit" class="submit" id="submit">
+            </form>
+            <!-- <img class="send" src="./images/angle-down-solid.svg" alt="Clique para enviar"> -->
             <div class="result--div">
                 <p class="result--year">years</p>
                 <p class="result--month">months</p>
