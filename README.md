@@ -1,7 +1,21 @@
-# Mochila de Viagem
+# Calculadora de Idade
 
-Neste projeto, desenvolvido para a aula do Curso de Formação em Front-End da Alura, criei um site para auxiliar na organização da mala de viagem para evitar esquecimentos.
-O usuário pode adicionar e remover os itens e quantidades digitando o objeto no campo "Nome" e quantidade no campo correspondente.
-É possível atualizar as quantidades dos itens quantas vezes forem necessário e também remover itens já adicionados ao clicar no "X"
+Ideia de projeto retirada de: https://www.frontendmentor.io/challenges
 
-Linguagens utilizadas no projeto: HTMl, CSS e Javascript.
+## Objetivo:
+
+O objetivo deste projeto é criar uma aplicação em que o usuário insere uma data e o sistema calula o numero de anos, meses e dias em relação à data do preenchimento.
+
+## Visão Geral:
+
+Os usuários poderão:
+
+- Receber a data em anos, meses e dias após colocarem uma data válida
+- Receber mensagens de erro caso:
+    - Enviem o formulário vazio
+    - O número no campo "Dia" não esteja entre 1-31
+    - O número no campo "Mês" não esteja entre 1-12
+    - O ano esteja no futuro
+    - A data seja inválida, como por exemplo: 30/02/1990
+
+- O projeto foi desenvolvido seguindo a metodologia Mobile First e possui responsividade de acordo com o tamanho da tela
