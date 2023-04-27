@@ -1,47 +1,35 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
-        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css">
-    <title>Calculadora de Idade</title>
+    <title>Mochila de viagem</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <main>
-        <section class="board">
-            <form>
-                <span class="date">
-                    <label>Dia
-                        <input class="date--form" id="day" min="1" max="31" required>
-                    </label>
-                    <label>Mês
-                        <input class="date--form" id="month" min="1" max="12" required>
-                    </label>
-                    <label>Ano
-                        <input class="date--form" id="year" required>
-                    </label>
-                </span>
-                <input type="submit" class="submit" id="submit">
+    <main class="conteudo">
+        <div class="principal">
+            <div class="mochila"></div>
+            <form action="" class="adicionar" id="novoItem">
+                <label for="item">Nome</label>
+                <input type="text" name="nome" id="nome">
+                <label for="item">Quantidade</label>
+                <input type="number" name="quantidade" id="quantidade">
+                <input type="submit" value="Adicionar" class="cadastrar" id="cadastrar">
             </form>
+        </div>
 
-            <div class="result--div">
-                <p class="result--year">anos</p>
-                <p class="result--month">meses</p>
-                <p class="result--day">dias</p>
-            </div>
-        </section>
+        <ul class="lista" id="lista">
+        </ul>
     </main>
-    <footer>
-        <p>Desafio <a href="https://www.frontendmentor.io/challenges">Frontend Mentor</a>.
-            Desenvolvido por Andre
-            Tassis.</p>
-    </footer>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
