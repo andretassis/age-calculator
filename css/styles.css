@@ -18,10 +18,18 @@ body {
     border-radius: 20px 10px 60px 10px;
     background-color: var(--bg-color-board);
     margin: 50px;
-    padding: 50% 40%;
+    padding: 40% 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+label {
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 1.15em;
+    color: var(--text-color);
+    font-weight: 700;
 }
 
 .date {
@@ -31,8 +39,8 @@ body {
 }
 
 .date--form {
-    width: 65px;
-    height: 40px;
+    width: 85px;
+    height: 50px;
     margin: 5px;
 }
 
@@ -46,11 +54,71 @@ body {
     width: 40px;
     height: 40px;
     text-align: center;
+    margin: 50px 0 30px 130px;
+}
+
+.result--div {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    color: var(--text-color);
+    font: var(--main-font);
+    font-weight: 700;
+    font-size: 56px;
 
 }
 
-.send {
-    width: 50px;
-    height: 50px;
-    margin-top: 100px;
+footer {
+    font-family: var(--main-font);
+    color: var(--text-color);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+a:hover {
+    color: var(--number-color);
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+@media (min-width: 1200px) {
+
+    form {
+        display: flex;
+        flex-direction: row;
+        align-items: last baseline;
+
+    }
+
+    label {
+        font-size: 1.75em;
+
+    }
+
+    .date--form {
+        width: 150px;
+        height: 80px;
+        margin: 5px;
+    }
+
+    .result--div {
+        margin-top: 2em;
+        font-size: 72px;
+
+    }
+
+    footer {
+        font-family: var(--main-font);
+        color: var(--text-color);
+        text-align: center;
+        font-size: 24px;
+    }
+
 }

@@ -17,22 +17,29 @@
         <section class="board">
             <form>
                 <span class="date">
-                    <input class="date--form" id="day">
-                    <input class="date--form" id="month">
-                    <input class="date--form" id="year">
+                    <label>Dia
+                        <input class="date--form" id="day" min="1" max="31" required>
+                    </label>
+                    <label>Mês
+                        <input class="date--form" id="month" min="1" max="12" required>
+                    </label>
+                    <label>Ano
+                        <input class="date--form" id="year" required>
+                    </label>
                 </span>
                 <input type="submit" class="submit" id="submit">
             </form>
-            <!-- <img class="send" src="./images/angle-down-solid.svg" alt="Clique para enviar"> -->
+
             <div class="result--div">
-                <p class="result--year">years</p>
-                <p class="result--month">months</p>
-                <p class="result--day">days</p>
+                <p class="result--year">anos</p>
+                <p class="result--month">meses</p>
+                <p class="result--day">dias</p>
             </div>
         </section>
     </main>
     <footer>
-        <p>Desafio <a href="https://www.frontendmentor.io/challenges">Frontend Mentor</a>. Desenvolvido por Andre
+        <p>Desafio <a href="https://www.frontendmentor.io/challenges">Frontend Mentor</a>.
+            Desenvolvido por Andre
             Tassis.</p>
     </footer>
 </body>
