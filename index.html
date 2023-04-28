@@ -15,29 +15,30 @@
 <body>
     <main>
         <section class="board">
-            <form>
+            <form id="form">
                 <span class="date">
-                    <label>Dia
-                        <input type="number" class="date--form" id="day" min="1" max="31" required>
-                    </label>
+                    <label for="day">Dia
+                        <input type="number" name="day" class="date--form" id="day" min="1" max="31" required>
+                    </label for="month">
                     <label>Mês
-                        <input class="date--form" id="month" min="1" max="12" required>
+                        <input type="number" class="date--form" id="month" min="1" max="12" required>
                     </label>
-                    <label>Ano
-                        <input class="date--form" id="year" required>
+                    <label for="year">Ano
+                        <input type="number" class="date--form" id="year" max="2023" required>
                     </label>
                 </span>
                 <input type="button" class="submit" id="submit">
             </form>
 
             <div class="result--div">
-                <p class="result--year">anos</p>
-                <p class="result--month">meses</p>
-                <p class="result--day">dias</p>
+                <p class="result--year"><strong id="result-year"></strong>anos</p>
+                <p class="result--month"><strong id="result-month"></strong>meses</p>
+                <p class="day"><strong id="result-day"></strong> </strong>dias</p>
             </div>
         </section>
 
         <script src="../js/main.js"></script>
+        <script src="../js/validacoes.js"></script>
     </main>
     <footer>
         <p>Desafio <a href="https://www.frontendmentor.io/challenges">Frontend Mentor</a>.
