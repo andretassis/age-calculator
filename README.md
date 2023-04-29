@@ -8,9 +8,6 @@ O objetivo deste projeto é criar uma aplicação em que o usuário insira uma d
 
 ## Visão Geral:
 
-Os usuários poderão:
-
-- Receber a data em anos, meses e dias após colocarem uma data
 - O programa retornará os valores "--" caso o usuário: 
     - Envie o formulário vazio
     - O número no campo "Dia" não esteja entre 1-31
